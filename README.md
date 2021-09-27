@@ -1,1 +1,1 @@
-# Navigus-company-project
+# Navigus-company-assignment
