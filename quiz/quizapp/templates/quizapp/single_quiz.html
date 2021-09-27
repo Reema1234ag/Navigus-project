@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'quizapp/single_quiz.css' %}">
+
+    <meta charset="UTF-8">
+    <title>Single Quiz</title>
+</head>
+<body>
+
+    <div class="full_container">
+
+        <h4 class="quiz_title">{{ quiz.quiz_title }}</h4>
+
+        <h5 class="num_questions">{{ num_questions }} Questions</h5>
+
+        <a class="home_button" href="{% url 'quizapp:single_question' quiz.id 1 %}">Start Quiz</a>
+        <br>
+        <br>
+        <br>
+        <a class="home_button" href="{% url 'quizapp:index' %}">Home</a>
+
+    </div>
+
+</body>
+</html>
