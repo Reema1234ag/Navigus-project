@@ -1,1 +1,1 @@
-# Navigus-comapany-project
+# Navigus-company-project
